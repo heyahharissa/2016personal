@@ -1,0 +1,57 @@
+$primary-color		= #49b0bf
+$accent-color     	= #93617f
+$accent-color-two	= #a4d85f
+$dark-grey			= #222222
+$med-grey			= #444444
+
+
+$primary-font	= 'Montserrat', sans-serif
+
+body
+	color $med-grey
+	display flex
+	flex-wrap wrap
+	font-family $primary-font
+	font-weight 300
+	justify-content center
+
+h1
+	color $accent-color
+	font-family $primary-font
+
+h2, 
+h3
+	font-family $primary-font
+	letter-spacing 0.050em
+	text-transform uppercase
+
+h2	
+	border-bottom 1px solid #e0e0e0
+	color $accent-color
+	padding .25em 0
+
+h3
+	color $primary-color	
+
+p
+	font-family $primary-font
+
+header
+	align-items center
+	display flex
+	flex 0 1 70%
+
+header .fa 
+	color darken($primary-color, 20%)
+	cursor pointer
+	font-size 1.5em
+	padding 0 .25em
+
+.container
+	display flex
+	flex-direction row	
+	justify-content space-between
+	flex 0 1 70%
+
+
+
